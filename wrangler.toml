@@ -7,10 +7,10 @@ port = 8787
 local_protocol = "http"
 
 [env.vars]
-CUSTOM_DOMAIN = "docker.chen811403726.workers.dev"
+CUSTOM_DOMAIN = "cloudflare-docker-proxy.chen811403726.workers.dev"
 
 [env.dev.vars]
-MODE = "debug"
+MODE = "production"
 TARGET_UPSTREAM = "https://registry-1.docker.io"
 
 [env.production]
